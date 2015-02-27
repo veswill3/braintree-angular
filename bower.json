@@ -6,7 +6,7 @@
     "Braintree <code@getbraintree.com>"
   ],
   "description": "Use Braintree in your Angular app",
-  "main": "index.js",
+  "main": "dist/braintree-angular.js",
   "keywords": [
     "braintree",
     "angular"
@@ -15,5 +15,8 @@
   "ignore": [
     "**/.*",
     "!dist/braintree-angular.js"
-  ]
+  ],
+  "dependencies": {
+    "braintree-web": "~2.5.1"
+  }
 }
